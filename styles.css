@@ -1,0 +1,118 @@
+html
+{
+    font-family: 'Space Mono', monospace;
+}
+
+.body_container
+{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: row;
+}
+
+.left_container
+{
+    background-image: url(./spaceIMG.jpg);
+    background-repeat: no-repeat;
+    background-size: 1500px auto;
+    background-position: center;
+    width: 40vw;
+    min-width: 200px;
+    border-right: 5px;
+    border-style: solid;
+}
+
+.title_container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 20vh;
+    text-align: center;
+    background-color: rgba(245, 245, 245, 0.89);
+    height: 200px;
+    border-width: 5px 0 5px 0;
+    border-style: solid;
+}
+
+.title_container p
+{
+    font-size: 100px;
+}
+
+
+.right_container
+{
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(202, 202, 202);
+}
+
+.desc_container
+{
+    font-size: 1.3rem;
+    padding: 0 50px 50px 50px;
+}
+
+.desc_container p:first-child
+{
+    margin-bottom: 50px;
+}
+
+.input_container
+{
+    background-color: white;
+    padding: 50px 50px 50px 50px;
+    box-shadow: 0 5px 10px rgb(104, 104, 104);
+}
+.input-grid p
+{
+    width: 100%;
+    font-size: 1.2rem;  
+}
+
+.input-grid
+{   
+    display:flex;
+    flex-flow: row wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+div>label
+{
+    display:block;
+    margin-bottom: 5px;
+}
+
+div>input
+{
+    width: 300px;
+    height: 20px;
+}
+
+#submit-button
+{
+    font-family: 'Space Mono', monospace;;
+    width: 200px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 50px;
+    border: solid black 2px;
+    border-radius: 15px;
+}
+
+.login_container
+{
+    font-size: 1rem;
+    padding: 10px 50px 0 50px;
+}
+
+.login_container p
+{
+    display: inline;
+}
